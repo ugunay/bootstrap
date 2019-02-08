@@ -1,0 +1,249 @@
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1886C7;
+    text-transform: uppercase;
+}
+
+p {
+    font-size:14px;
+}
+
+#headerSection h1 {
+    color:black;
+    margin-top: 200px;
+}
+
+.navbar {
+    border-bottom: #1886C7 1px solid;
+}
+
+.navbar .navbar-brand {
+    color: #1886C7 ;
+    font-size: 24px;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition:color 0.5s ease; 
+}
+
+.nav-link:hover {
+    color: #1886C7 !important;
+
+}
+
+#headerSection {
+    background: url("../images/gdtography.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #1886C7;
+}
+
+#features .fab, .fas {
+    font-size: 40px;
+}
+
+.feature-top:hover {
+    color: #1886C7 ;
+    cursor: pointer;
+    transition:color 0.5s ease; 
+}
+
+#ourHistory h2 {
+    border-left: 6px solid  #1886C7;
+    padding-left: 30px;
+
+}
+
+#ourHistory .col-md-6 {
+    display: inline;
+}
+
+#ourHistory .btn-outline-primary {
+    position: absolute;
+    bottom:0;
+}
+
+#ourHistory p{
+    /* line-height: 20px; */
+}
+
+#team .card {
+    border:none;
+    opacity:0.5;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+#team .card:hover {
+    opacity:1;
+}
+
+#team .fab {
+    font-size:24px;
+}
+
+#whatWeDo {
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, .7),
+        rgba(0, 0, 0, .7)
+    ), 
+    url("../images/code.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#caseStudy {
+    background-color: #f4f5f9;
+    line-height: 28px;
+}
+
+.case-area {
+    background-color:#fff;
+    margin-top: 40px;
+    margin-right: -40px;
+    z-index: 100;
+    padding: 40px;
+    position: relative;
+    min-height: 400px;
+}
+
+#caseStudy h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#caseStudy .fas {
+    font-size:40px;
+    color: #1886C7 ;
+}
+
+.case-image {
+    margin-left: -40px;
+}
+
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#portfolio .fas {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.image-container {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.image-overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #1886c7;
+    opacity:0;
+    transition:1s ease;
+}
+
+.image-container:hover .image-overlay{
+    opacity:0.7;
+}
+
+.image-text {
+    color:white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#contact  {
+    background-color: #f4f5f9;
+}
+
+#contact .input-group-addon {
+    width:50px;
+     border-radius: 0;
+    color:#fff;
+    background-color: #1886c7; 
+    text-align: center;
+}
+
+#contact .form-control, #contact .btn {
+    border-radius: 0;
+}
+
+#main-footer {
+    color:#fff;
+    background-color: #000;
+}
+
+@media screen and (max-width:1200px) {
+    #ourHistory p {
+        line-height: 20px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    .display-4{
+        font-size: 42px;
+    }
+    #ourHistory .btn {
+        position: relative;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .display-4{
+        font-size: 32px;
+    }
+    .case-image {
+        margin-left: 0;
+        text-align: center;
+    }
+    .case-area {
+        margin-right:0;
+    }
+}
+
+@media screen and (max-width:576px) {
+}

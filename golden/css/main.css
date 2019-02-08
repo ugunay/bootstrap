@@ -1,0 +1,444 @@
+
+html,
+body,
+
+
+
+#cover{
+    height:100%;
+}
+
+#cover {
+    background: url('../images/run.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#logoImage {
+    height:40%;
+    width:40%;
+}
+
+.fixed-top{
+    max-width: 1440px;
+    margin:20px auto;
+}
+
+h1 {
+    margin-top:15%;
+    font-family: 'Fredoka One', cursive;
+    color:white;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    border: none;
+    padding: 20px 30px;
+}
+/* .btn-primary:hover{
+    background-color: white;
+    color:#007bff;
+} */
+a.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color:black !important;
+    font-weight: 700;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+a.nav-link:hover {
+    color:white !important;
+}
+
+#service {
+    padding: 100px 0;
+}
+
+
+.service-top h3, .portfolio-top h3, .aboutus-top h3, .team-top h3, .contact-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.service-top p, .portfolio-top p, .aboutus-top p, .team-top p, .contact-top p {
+    font-family: 'Fredoka One', cursive;
+    font-size:16px;
+    font-style:italic;
+    margin-bottom: 70px;
+}
+
+.item-circle {
+    border: 1px solid #e07f3e;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+.service-content i {
+    color: #e07f3e;
+    line-height: 100px;
+}
+
+.service-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.card {
+    border-style:none;
+}
+
+.portfolio-content .row {
+    margin-bottom: 50px;
+}
+
+.portfolio-content .card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.portfolio-content .card-subtitle {
+    font-family: 'Fredoka One', cursive;
+    font-size:14px;
+    font-style:italic;
+}
+
+.image-circle {
+    /* border: 1px solid #e07f3e; */
+    width: 180px;
+    height: 180px;
+    border-radius: 360px;
+}
+#service {
+    padding: 100px 0;
+}
+
+#aboutus {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.aboutus-content .row {
+    margin-bottom: 90px;
+}
+
+.aboutus-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.aboutus-content p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
+}
+
+.aboutus-content {
+    position: relative;
+}
+
+.aboutus-content:before {
+    top:0;
+    bottom: 0;
+    position:absolute;
+    content: " ";
+    width:4px;
+    background-color: #f1f1f1;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.about-circle {
+    position: relative;
+    
+}
+
+.about-circle:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 176px;
+    height: 176px;
+    background-color: #FED136;
+    border-radius: 170px;
+    border:7px solid #f1f1f1;
+    left:50%;
+    margin-left: -91.5px;
+}
+
+.about-circle .yellow-text {
+    position: relative;
+    /* z-index:1; */
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+}
+
+#team{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f9f9f9;
+}
+
+.team-circle {
+    width:220px;
+    height: 220px;
+    background-color: black;
+    border-radius:220px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    margin-bottom: 20px;
+}
+
+.team-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-content h5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 14px;
+}
+
+.social-icons {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.social-icon {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.social-icon .fab {
+    border: 2px solid #000;
+    width:30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 26px;
+}
+
+.team-content p {
+    margin: 50px auto;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    color: #777;
+}
+
+#partner {
+    padding: 60px 0;
+}
+
+#contact {
+    height:100%;
+}
+#contact {
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px 0;
+}
+
+.contact-top h3,p {
+    color: white;
+}
+
+.fixed-top {
+    max-width: 1140px;
+    margin:20px auto;
+    transition: 02.s all linear;
+}
+
+#name, #email, #subject {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius:3px;
+    padding-left:20px;
+    margin-left: 5%;
+}
+
+textarea {
+    width:90%;
+    height:203px;
+    border-style: none;
+    border-radius:3px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-left: 5%;
+}
+
+.golden-form-element {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#footer {
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+#footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555555;
+    line-height: 40px;
+}
+
+.company-social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.company-social-icon {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #fff;
+}
+
+.company-social-icon .fab {
+    width: 40px;
+    height: 40px;
+    border-radius:40px;
+    line-height: 40px;
+    background-color: #000;
+}
+
+.fixed-top.change-fixed-top {
+    margin-top: 0;
+    background-color: lightblue;
+    max-width: 2000px;
+}
+
+
+
+@media (max-width: 991px) {
+
+    h1 {
+        margin-top:250px;
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    #footer p{
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .company-social-icon {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .company-social-icon .fab {
+        width: 30px;
+        height: 30px;
+        border-radius:30px;
+        line-height: 30px;
+    }
+
+    #contact {
+        height:105%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0, 3);
+    }
+    .navbar-light .navbar-toggler {
+        border: 1px solid #fed136;
+    }
+
+    h1 {
+        margin-top:250px;
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .card {
+        padding-left: 10%;
+        padding-right:10%;
+    }
+
+    .aboutus-content:before {
+        width:0;
+    }
+
+    #aboutus {
+        padding-bottom: 0;
+    }
+
+    #partner .col-md3 {
+        margin: 20px 30px;
+    }
+
+    #footer .col-md-4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    #contact {
+        height:130%;
+    }
+}
+
+
+
